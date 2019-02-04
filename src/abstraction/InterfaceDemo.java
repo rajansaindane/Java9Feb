@@ -10,4 +10,8 @@ public interface InterfaceDemo {
             return a+b+c;
         }
 
+        interface Demo{
+        void check();
+        }
+
 }

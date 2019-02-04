@@ -2,16 +2,20 @@ package abstraction;
 
 public class CheckAbstraction extends AbstractDemo implements InterfaceDemo,CheckMultipleInheritance{
 
-    public CheckAbstraction(int a) {
-        super(a);
-    }
-
     @Override
     public void getDetails() {
 
     }
 
+    InterfaceDemo demo;
+
+
+    void checkInterface()
+    {
+    }
+
     public static void main(String[] args) {
+
 
         AbstractDemo demo=new AbstractDemo() {
             @Override
