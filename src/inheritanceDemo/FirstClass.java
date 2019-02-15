@@ -1,6 +1,7 @@
 package inheritanceDemo;
 
-public class FirstClass {
+public class FirstClass extends Thread {
+
 
     public FirstClass() {
         System.out.println("inside First Class");

@@ -1,6 +1,5 @@
 package string;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -39,7 +38,7 @@ public class CheckString {
 
     }
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         CheckString checkString=new CheckString();
         Long currentTimeString=System.currentTimeMillis();
         checkString.checkString();
